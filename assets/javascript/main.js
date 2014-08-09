@@ -5,7 +5,7 @@
 $(function() {
 	$("#remote-page").click(function() {
 		$("#remote-content").load("pages/example.html", function() {
-			alert('Loaded remote content via ajax!');
+			alert('Loaded remote content via ajax!'); // Junk alert call
 		});
 	});
-})
+});
